@@ -1,0 +1,50 @@
+body {
+  background: rgb(255, 173, 65);
+}
+
+.todo-container {
+  background: rgba(0, 0, 0, 0.74);
+  width: 40vw;
+  margin: 10em auto;
+  border-radius: 15px;
+  padding: 20px 10px;
+  color: white;
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.task {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.input{
+  color: black;
+}
+.task button{
+  background: rgb(12, 124, 251);
+  border-radius: 40px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+.task button:hover{
+  background: green;
+}
+.header {
+  margin: 0.5em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.create-task input[type=text] {
+  margin: 2.5em 2em;
+  width: 80%;
+  outline: none;
+  border: 2px solid black;
+  padding: 0.7em;
+  border-radius:10px;
+}
